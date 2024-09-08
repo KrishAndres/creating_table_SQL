@@ -1,0 +1,87 @@
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (1, 'Mano', 'Reeman', '11/7/2002', 'zO5=AP!Ht&m', '10/1/2023');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (2, 'Brinna', 'Moscon', '7/8/2002', 'lT4g84`_~283', '10/25/2023');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (3, 'Elenore', 'Adshed', '5/17/2003', 'tQ8.*Lo6%E<', '9/23/2023');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (4, 'Kerwinn', 'Huchot', '11/21/2003', 'iL0/.OHiV&7', '5/2/2024');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (5, 'Rolf', 'Pine', '4/9/2002', 'cB26A/+XMK=8', '9/24/2023');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (6, 'Verney', 'Dalgleish', '4/22/2003', 'mY9A`8gGs''%"Q(', '9/15/2023');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (7, 'Carley', 'Inglefield', '5/15/2003', 'bY3mP}y,HVWJ', '1/30/2024');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (8, 'Matthaeus', 'Colbert', '4/3/2003', 'cO1H=={BbrSPm@', '11/20/2023');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (9, 'Nye', 'Dobbie', '8/5/2003', 'bT7"pyJxY"(', '8/15/2024');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (10, 'Reade', 'Boissier', '11/29/2002', 'oH7"~<5Rm', '8/29/2024');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (11, 'Gordan', 'Pardoe', '6/25/2003', 'kP3nFkhu>$Wf7QdZ', '10/23/2023');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (12, 'Barbey', 'McPhelimy', '12/7/2003', 'gY2=It''0|"|%', '11/17/2023');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (13, 'Mirna', 'Bunstone', '8/22/2002', 'vC56Wjw{', '11/7/2023');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (14, 'Zola', 'Strand', '5/11/2002', 'fR8e.Hu''', '1/30/2024');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (15, 'Concettina', 'Smeath', '12/14/2003', 'rJ9ihM>)T~TZ}VCV', '6/17/2024');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (16, 'Terrel', 'Odell', '3/26/2002', 'gI78*}y$+3v=$', '11/2/2023');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (17, 'Victor', 'Manon', '5/20/2003', 'vX0CaK4V#"X+%.6', '4/13/2024');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (18, 'Lissie', 'Buzza', '11/12/2002', 'oT2(+<VKe', '8/21/2024');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (19, 'Carolina', 'McLay', '5/20/2003', 'cS0ELj3=VY=MKC5', '11/5/2023');
+insert into users (user_id, first_name, last_name, date_of_birth, password, date_registered) values (20, 'Abner', 'Albiston', '4/19/2003', 'eE8~)j(Cl,NxFdcs', '6/10/2024');
+
+
+
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (1, 17, 14, false, '3/30/2021');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (2, 15, 10, false, '11/26/2021');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (3, 3, 19, true, '8/11/2024');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (4, 19, 14, false, '4/30/2021');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (5, 10, 13, false, '8/26/2021');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (6, 11, 15, false, '10/3/2021');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (7, 3, 8, true, '7/26/2024');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (8, 7, 13, false, '9/3/2024');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (9, 7, 18, true, '5/13/2022');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (10, 7, 15, false, '1/3/2022');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (11, 11, 18, true, '8/16/2022');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (12, 10, 11, true, '6/28/2023');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (13, 13, 20, false, '5/3/2023');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (14, 2, 1, true, '5/25/2023');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (15, 5, 2, true, '6/17/2024');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (16, 8, 20, false, '11/6/2020');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (17, 14, 18, true, '4/15/2021');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (18, 8, 18, false, '10/1/2023');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (19, 16, 12, true, '9/7/2023');
+insert into friends (friend_id, friend_who_added, friend_being_added, is_accepted, date_added) values (20, 16, 6, true, '5/28/2022');
+
+
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (1, 'Streich, Koelpin and Cronin', 5, 15, false, '1/22/2023');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (2, 'Beier, Strosin and Rau', 8, 12, false, '2/9/2021');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (3, 'Kertzmann LLC', 3, 10, false, '11/17/2020');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (4, 'Dach, Dach and Bergnaum', 14, 2, true, '6/12/2021');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (5, 'Bednar, Rempel and Vandervort', 12, 16, false, '1/2/2024');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (6, 'Leuschke Inc', 7, 19, true, '6/20/2023');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (7, 'Douglas, Monahan and West', 7, 4, true, '5/7/2023');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (8, 'Barton, Blanda and Kuhn', 11, 6, false, '7/17/2024');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (9, 'Heathcote Inc', 10, 15, false, '5/11/2023');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (10, 'Ruecker-Altenwerth', 3, 6, true, '12/14/2022');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (11, 'Hartmann LLC', 20, 13, false, '9/30/2023');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (12, 'Jast-Walker', 18, 20, false, '11/17/2023');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (13, 'Wolff-Kuvalis', 15, 16, true, '11/26/2022');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (14, 'Rau-Gusikowski', 11, 7, true, '5/23/2021');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (15, 'Bechtelar Inc', 16, 6, true, '5/19/2022');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (16, 'Cormier and Sons', 1, 5, true, '3/1/2022');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (17, 'Crist-Kunde', 2, 3, false, '4/9/2024');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (18, 'Crist Group', 4, 15, false, '9/29/2023');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (19, 'Davis-Kerluke', 19, 17, true, '9/24/2021');
+insert into Group_membership_requests (group_membership_request_id, group_name, group_id, group_member_user_id, is_group_membership_accepted, date_added) values (20, 'Bayer-Marvin', 2, 19, false, '8/14/2022');
+
+
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (1, 'Synergistic upward-trending success', 11, true, true, 14, '1/11/2022');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (2, 'Assimilated 5th generation local area network', 1, false, true, 14, '6/6/2023');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (3, 'Re-contextualized intangible policy', 18, false, true, 2, '3/11/2022');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (4, 'Total 24 hour contingency', 4, false, true, 20, '12/13/2020');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (5, 'Proactive zero defect circuit', 12, false, true, 8, '8/31/2023');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (6, 'Organized client-server customer loyalty', 20, false, false, 3, '9/5/2022');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (7, 'Switchable dynamic pricing structure', 11, true, true, 6, '4/8/2022');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (8, 'Implemented responsive support', 11, false, true, 20, '4/14/2021');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (9, 'Ergonomic 6th generation help-desk', 12, true, false, 14, '10/15/2021');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (10, 'Enhanced scalable hub', 11, true, true, 11, '6/21/2023');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (11, 'Team-oriented well-modulated infrastructure', 11, false, true, 18, '11/13/2021');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (12, 'Customizable encompassing groupware', 7, false, true, 17, '4/22/2021');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (13, 'Triple-buffered zero defect interface', 14, false, false, 20, '7/6/2023');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (14, 'Optimized bottom-line frame', 9, false, false, 8, '1/16/2023');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (15, 'Synergistic foreground capability', 7, false, false, 17, '7/15/2021');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (16, 'Extended 24/7 middleware', 4, true, true, 13, '6/17/2023');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (17, 'Multi-layered attitude-oriented success', 18, true, true, 17, '7/10/2021');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (18, 'Realigned national task-force', 5, false, false, 6, '4/8/2022');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (19, 'Synchronised clear-thinking budgetary management', 19, false, true, 2, '11/5/2020');
+insert into posts (post_id, post_description, posted_by, is_public, is_only_for_friends, group_id, date_added) values (20, 'Exclusive non-volatile methodology', 9, true, false, 6, '8/12/2022');
